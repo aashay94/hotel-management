@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+html, body {
+	background: black;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+.main, tr.header {
+	background: mediumpurple;
+}
+
+h1.header {
+	color: mediumpurple;
+	text-align: center;	
+}
+
+div.loginOut{
+	float: right; 
+	margin-top: -30px;
+	padding: 7px;
+	color: red;
+	font-size: 12px;
+}
+
+.error {
+	color: #FF0000;
+}
+
+a.loginOut:link {
+    color: red;
+     font-weight: bold;
+      text-decoration: none;
+}
+
+tr.header{
+	background-color: black;
+}
+
+/*Upper menu  */
+tr.upperMenu{
+	background-color: black;
+}
+
+div.uppermenuText{
+	color: white;
+	 font-weight: bold;
+}
+
+/*Main table all views setting  */
+table.main  {
+	margin: 0 auto;
+	align: center;
+	text-align: center;
+	width: 75%;
+	height: 90%; 
+}
+
+/*Main table content cell  */
+ table.content {
+      height: 100%; 
+      width: 100%;
+ }
+
+/*description font  */
+
+div.description{
+	font-weight: bold;
+	align: right;
+	font-size: 18px;
+	padding: 3px 3px;
+}
+
+/*Hotel status  */
+table.statusLeft, table.statusRight{
+	text-align: left;
+	table-layout: auto;
+	width: 100%;
+	border-collapse: collapse;
+	line-height: 200%;
+}
+
+td.statusTable {
+	vertical-align: top;
+	-webkit-box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+	box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+}
+
+/*To do   */
+td.toDoShadow {
+	
+	-webkit-box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+	box-shadow: 14px 14px 30px 0px rgba(0, 0, 0, 0.28);
+}
+div.toDoHead{
+	font: bold 14px/18px Georgia, serif;
+	text-align: left;
+	padding: 3px 3px;
+}
+
+
+td.toDoSideMenu {
+	align: center;
+	line-height: 200%;
+	table-layout: auto;
+}
+
+div.todo{
+	text-align: left;
+	font: italic 12px/16px Georgia, serif;
+}
+
+table.toDoForm{
+		table-layout: auto;
+	font-size: 14px;
+	align: center;
+	text-align: left;
+}
+
+/*login  */
+td.loginForm{
+	padding: 8px;
+}
+
+table.loginForm{
+	font-size: 14px;
+	font-weight: bold;
+ 
+}
+td.mainContent{
+	vertical-align: top;
+	align: center;
+}
+
+/*Left menu  */
+div.leftmenuText{
+	color: black;
+	font-size: 14px;
+}
+
+
+/*Guest menu  */
+
+table.guestList{
+	table-layout: auto;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+/*add guest form table  */
+table.addGuestForm{
+	
+	line-height: 250%;
+}
+
+/*room list  */
+table.roomList{
+	table-layout: auto;
+	font-size: 14px;
+	text-align: center;
+
+}
+/*general to have gentle line between rows  */
+th.list, td.list{
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.done{
+    border: none;
+    color: BlueViolet;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+table.billTable{
+	text-align: left;
+	table-layout: auto;
+	border-collapse: collapse;
+	font-size: 16px;
+	line-height: 150%;
+	
+}
+tr.bill{
+	padding-right: 1em;
+}
+tab1 {
+	padding-left: 4em;
+}
+
+tab2 {
+	padding-left: 8em;
+}
+
+tab3 {
+	padding-left: 12em;
+}
+
+tab4 {
+	padding-left: 16em;
+}
+
+tab5 {
+	padding-left: 20em;
+}
+
+tab6 {
+	padding-left: 24em;
+}
+
+tab7 {
+	padding-left: 28em;
+}
+
+tab8 {
+	padding-left: 32em;
+}
+
+tab9 {
+	padding-left: 36em;
+}
+
+tab10 {
+	padding-left: 40em;
+}
+
+tab11 {
+	padding-left: 44em;
+}
+
+tab12 {
+	padding-left: 48em;
+}
+
+tab13 {
+	padding-left: 52em;
+}
+
+tab14 {
+	padding-left: 56em;
+}
+
+tab15 {
+	padding-left: 60em;
+}
+
+tab16 {
+	padding-left: 64em;
+}
